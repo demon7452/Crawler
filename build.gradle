@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories{
+	mavenCentral()
+}
+
+dependencies{
+	compile 'junit:junit:4.12'
+	compile group: 'org.jsoup', name: 'jsoup', version: '1.9.1'
+}
